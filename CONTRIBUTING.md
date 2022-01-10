@@ -8,7 +8,7 @@ Compiler default is C++11 (eventually C99 for C parts)
 
 Here's the software you'll need before you start building (mandatory in bold)
 
-- **Standard C++ Library** (>= C++11)
+- **Standard C++ Library** (>= C++20)
 - **Qt5** (>= 5.5)
 - **Boost** (>= 1.77)
 - CMake (>= 3.1.0) or QMake (>= 5.5)
