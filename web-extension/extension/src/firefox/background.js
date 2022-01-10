@@ -165,7 +165,7 @@ function collectDOMandSendData() {
 
   var myArgument = JSON.stringify(mySettings);
 
-  // We have permission to access the activeTab, so we can call browser.tabs.executeScript.
+  // We have permission to access the activeTab, so we can call browser.scripting.executeScript.
   /* Remark:
    * code: "<some code here>"
    * The value of "<some code here>" is actually the function's code of myFunction.
@@ -174,8 +174,9 @@ function collectDOMandSendData() {
    */
   var codeToExecute = "(" + myFunction + ")(" + myArgument + ");";
 
-  browser.tabs.executeScript({
-      "code": codeToExecute
+  browser.scripting.executeScript({
+      "func": myFunction,
+      "args": [myArgument]
     }, function(results) {
       sendData(results[0]);
     }
