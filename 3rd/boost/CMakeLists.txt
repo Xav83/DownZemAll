@@ -17,7 +17,7 @@
 # - Boost.CRC 
 # - ...and various other boost libraries
 # 
-find_package(Boost 1.58.0)
+find_package(Boost 1.77.0)
 
 if(Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIRS})

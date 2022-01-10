@@ -10,7 +10,7 @@ Here's the software you'll need before you start building (mandatory in bold)
 
 - **Standard C++ Library** (>= C++11)
 - **Qt5** (>= 5.5)
-- **Boost** (>= 1.58)
+- **Boost** (>= 1.77)
 - CMake (>= 3.1.0) or QMake (>= 5.5)
 - GNU C++ Compiler (gcc/g++ >= 5.3.0)
   or Microsoft Visual Studio (>= 2017)
@@ -101,7 +101,7 @@ Setup the *Boost* library:
     Open `./3rd/boost/boost.pri`
     and add path manually to variable `BOOST_ROOT_DIR`,
     that gives the following line: 
-    `BOOST_ROOT_DIR = <here-absolute-path-to-boost>/Boost/boost_1_58_0`
+    `BOOST_ROOT_DIR = <here-absolute-path-to-boost>/Boost/boost_1_77_0`
 
 
 

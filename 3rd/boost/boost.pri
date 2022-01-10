@@ -49,7 +49,7 @@ isEmpty( BOOST_ROOT_DIR ) {
 
 BOOST_VERSION = $$getBoostVersion( $$BOOST_ROOT_DIR/boost/version.hpp )
 !greaterThan(BOOST_VERSION, 105800) {
-    error("'BOOST_VERSION' should be > 1.58.0, but is $${BOOST_VERSION}.")
+    error("'BOOST_VERSION' should be >= 1.77.0, but is $${BOOST_VERSION}.")
 }
 
 BOOST_VERSION_WITH_DOTS = $$getBoostVersionWithDots( $$BOOST_VERSION )
