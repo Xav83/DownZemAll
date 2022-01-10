@@ -9,9 +9,9 @@ Compiler default is C++11 (eventually C99 for C parts)
 Here's the software you'll need before you start building (mandatory in bold)
 
 - **Standard C++ Library** (>= C++20)
-- **Qt5** (>= 5.5)
+- **Qt6** (>= 6.0)
 - **Boost** (>= 1.77)
-- CMake (>= 3.1.0) or QMake (>= 5.5)
+- CMake (>= 3.1.0) or QMake (>= 6.0)
 - GNU C++ Compiler (gcc/g++ >= 5.3.0)
   or Microsoft Visual Studio (>= 2017)
 
@@ -45,8 +45,8 @@ Follow official instructions of each tool.
 
     sudo apt install qtcreator
     
-Or follow [instructions](https://wiki.qt.io/Install_Qt_5_on_Ubuntu
-"https://wiki.qt.io/Install_Qt_5_on_Ubuntu").
+Or follow [instructions](https://wiki.qt.io/Install_Qt_6_on_Ubuntu
+"https://wiki.qt.io/Install_Qt_6_on_Ubuntu").
 
     sudo apt install libfontconfig1
     sudo apt install mesa-common-dev
