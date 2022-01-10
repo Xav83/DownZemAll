@@ -13,7 +13,7 @@ Here's the software you'll need before you start building (mandatory in bold)
 - **Boost** (>= 1.77)
 - CMake (>= 3.1.0) or QMake (>= 6.0)
 - GNU C++ Compiler (gcc/g++ >= 8.1.0)
-  or Microsoft Visual Studio (>= 2017)
+  or Microsoft Visual Studio (>= 2022)
 
 Other 3rd-party libraries are included within the project, so built and linked
 automatically.
